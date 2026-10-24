@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app antigenerate --algorithm=dfs --height=3 --width=3 --output=/tests/tmp/8_check_noidentified_command.txt

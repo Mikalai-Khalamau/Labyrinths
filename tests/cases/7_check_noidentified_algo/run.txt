@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app generate --algorithm=dfc --height=32 --width=23 --output=/tests/tmp/7_check_noidentified_algo.txt

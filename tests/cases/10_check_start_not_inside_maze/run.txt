@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app solve --algorithm=astar --file=/tests/cases/10_check_start_not_inside_maze/maze.txt --start=4,5 --end=3,3 --output=/tests/tmp/10_check_start_not_inside_maze.txt

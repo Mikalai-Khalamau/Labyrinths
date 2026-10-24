@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app solve --algorithm=astar --file=/tests/cases/11_check_start_is_negative/maze.txt --start=-4,5 --end=3,3 --output=/tests/tmp/11_check_start_is_negative.txt

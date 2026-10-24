@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app generate --algorithm=dfs --height=0 --width=11 --output=/tests/tmp/6_check_zero_size.txt

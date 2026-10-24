@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app solve --algorithm=astar --file=/tests/cases/14_check_file_noidentified/maze.txt --start=5,19 --end=15,7 --output=/tests/tmp/14_check_file_noidentified.txt

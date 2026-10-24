@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app generate --algorithm=prima --height=1 --width=1 --output=/tests/expected.output.txt

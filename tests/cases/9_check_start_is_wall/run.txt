@@ -1,0 +1,1 @@
+docker run -u root -v ./tests:/tests:rw -i app solve --algorithm=astar --file=/tests/cases/9_check_start_is_wall/maze.txt --start=2,1 --end=3,3 --output=/tests/tmp/9_check_start_is_wall.txt
